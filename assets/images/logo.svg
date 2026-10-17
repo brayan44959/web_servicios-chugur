@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 90" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3E62"/>
+      <stop offset="100%" stop-color="#0B192C"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#DC2626" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Icon Mark / Crest -->
+  <g transform="translate(10, 8)" filter="url(#glow)">
+    <!-- Shield / Diamond Backing -->
+    <path d="M 36 2 L 68 18 L 68 52 C 68 68 36 78 36 78 C 36 78 4 68 4 52 L 4 18 Z" fill="url(#metalGrad)" stroke="#DC2626" stroke-width="2.5"/>
+    <!-- Red Inner Accent Curve -->
+    <path d="M 36 8 L 62 22 L 62 48 C 62 60 36 70 36 70 C 36 70 10 60 10 48 L 10 22 Z" fill="#071324" opacity="0.85"/>
+    
+    <!-- Stylized Monogram JR with Truck Wing -->
+    <!-- Heavy Truck Silhouette & Road Lines -->
+    <path d="M 20 48 L 36 34 L 52 48" stroke="#DC2626" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 25 54 L 36 44 L 47 54" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <line x1="36" y1="54" x2="36" y2="64" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Bold J & R integrated -->
+    <text x="21" y="32" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="19" font-weight="900" fill="#FFFFFF" letter-spacing="1">J</text>
+    <text x="35" y="32" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="19" font-weight="900" fill="#DC2626" letter-spacing="1">R</text>
+
+    <!-- Hazard / MATPEL diamond icon mini -->
+    <polygon points="36,12 41,17 36,22 31,17" fill="#F59E0B"/>
+  </g>
+
+  <!-- Typography Brand Name -->
+  <g transform="translate(92, 28)">
+    <!-- Main Title -->
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', 'Montserrat', 'Helvetica Neue', sans-serif" font-size="22" font-weight="900" fill="var(--brand-title-color, #0B192C)" letter-spacing="0.5">
+      <tspan fill="#DC2626">JR</tspan> MULTISERVICIOS
+    </text>
+    
+    <!-- Secondary Subtitle line -->
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', 'Montserrat', sans-serif" font-size="15" font-weight="800" fill="var(--brand-chugur-color, #1E3E62)" letter-spacing="3.5">
+      CHUGUR <tspan fill="#DC2626" font-size="13" font-weight="900">S.R.L.</tspan>
+    </text>
+
+    <!-- Tagline: Cargo & Matpel -->
+    <text x="0" y="44" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" fill="#64748B" letter-spacing="1.2">
+      TRANSPORTE PESADO • SOBREDIMENSIONADO • MATPEL
+    </text>
+
+    <!-- Red underline decoration -->
+    <rect x="0" y="52" width="230" height="3" fill="#DC2626" rx="1.5"/>
+    <rect x="235" y="52" width="16" height="3" fill="#0B192C" rx="1.5"/>
+    <rect x="255" y="52" width="8" height="3" fill="#F59E0B" rx="1.5"/>
+  </g>
+</svg>
